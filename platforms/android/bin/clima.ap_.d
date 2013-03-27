@@ -30,7 +30,9 @@
 /Users/leandrocp/code/cordova/clima/platforms/android/assets/www/res \
 /Users/leandrocp/code/cordova/clima/platforms/android/assets/www/spec \
 /Users/leandrocp/code/cordova/clima/platforms/android/assets/www/spec.html \
+/Users/leandrocp/code/cordova/clima/platforms/android/assets/www/css/foundation.min.css \
 /Users/leandrocp/code/cordova/clima/platforms/android/assets/www/css/index.css \
+/Users/leandrocp/code/cordova/clima/platforms/android/assets/www/css/normalize.css \
 /Users/leandrocp/code/cordova/clima/platforms/android/assets/www/img/cordova.png \
 /Users/leandrocp/code/cordova/clima/platforms/android/assets/www/js/index.js \
 /Users/leandrocp/code/cordova/clima/platforms/android/assets/www/res/icon \

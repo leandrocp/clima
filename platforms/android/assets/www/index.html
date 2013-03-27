@@ -11,13 +11,20 @@
     </head>
     <body>
 
-        <div>
-            <button onclick="capturePhoto();">Capture Photo</button> <br>
-            <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
-            <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
-            <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
-            <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
-            <img style="display:none;" id="largeImage" src="" />
+        <div class="row">
+            <ul class="small-block-grid-2">
+                <li><button onclick="capturePhoto();">Capture Photo</button></li>
+                <li><button onclick="capturePhotoEdit();">Capture Editable Photo</button></li>
+                <li><button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button></li>
+                <li><button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button></li>
+            </ul>
+        </div>
+
+        <div class="row panel">
+            <div class="small-12 small-centered columns">
+                <img style="display:none;width:120px;height:120px;" id="smallImage" src="" />
+                <img style="display:none;width:240px;height:240px;" id="largeImage" src="" />
+            </div>
         </div>
 
         <script type="text/javascript" src="cordova.js"></script>
