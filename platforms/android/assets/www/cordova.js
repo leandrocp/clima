@@ -1,3 +1,4 @@
+window.__onPluginsLoadedHack = true;
 // Platform: android
 
 // commit 47593b2bc1dba9bf46545b1da24577f937966e12
@@ -6778,4 +6779,21 @@ window.cordova = require('cordova');
 
 
 
+})();(function() { var mapper = cordova.require("cordova/modulemapper");
+var scriptCounter = 0;
+var scriptCallback = function() {
+scriptCounter--;
+if (scriptCounter == 0) { scriptsLoaded(); } };
+function injectScript(path) {
+scriptCounter++;
+var script = document.createElement("script");
+script.onload = scriptCallback;
+script.src = path;
+document.querySelector("head").appendChild(script);
+}
+
+function scriptsLoaded() {
+cordova.require("cordova/channel").onPluginsReady.fire();
+
+}
 })();

@@ -11,4 +11,13 @@
 /Users/leandrocp/code/cordova/clima/platforms/android/res/layout/main.xml \
 /Users/leandrocp/code/cordova/clima/platforms/android/res/values/strings.xml \
 /Users/leandrocp/code/cordova/clima/platforms/android/res/xml/config.xml \
+/Users/leandrocp/code/cordova/clima/platforms/android/bin/res/drawable/icon.png \
+/Users/leandrocp/code/cordova/clima/platforms/android/bin/res/drawable-hdpi/ic_launcher.png \
+/Users/leandrocp/code/cordova/clima/platforms/android/bin/res/drawable-hdpi/icon.png \
+/Users/leandrocp/code/cordova/clima/platforms/android/bin/res/drawable-ldpi/ic_launcher.png \
+/Users/leandrocp/code/cordova/clima/platforms/android/bin/res/drawable-ldpi/icon.png \
+/Users/leandrocp/code/cordova/clima/platforms/android/bin/res/drawable-mdpi/ic_launcher.png \
+/Users/leandrocp/code/cordova/clima/platforms/android/bin/res/drawable-mdpi/icon.png \
+/Users/leandrocp/code/cordova/clima/platforms/android/bin/res/drawable-xhdpi/ic_launcher.png \
+/Users/leandrocp/code/cordova/clima/platforms/android/bin/res/drawable-xhdpi/icon.png \
 /Users/leandrocp/code/cordova/clima/platforms/android/bin/AndroidManifest.xml \
