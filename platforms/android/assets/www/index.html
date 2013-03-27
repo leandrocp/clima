@@ -17,6 +17,15 @@
             </div>
         </div>
 
+        <div class="complete hide">
+            <button onclick="app.capturePhoto();">Capture Photo</button> <br>
+            <button onclick="app.capturePhotoEdit();">Capture Editable Photo</button> <br>
+            <button onclick="app.getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
+            <button onclick="app.getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
+            <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+            <img style="display:none;" id="largeImage" src="" />
+        </div>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
